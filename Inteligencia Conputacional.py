@@ -10,7 +10,9 @@ x = [
 ]
 
 #CLASSES
-y_true = [0,1,1,0]
+y_true = [0,1,1,0] #50% porem é indeterminado a divisão, pois não é possivel traçar uma reta e separar os valores
+#[0,1,1,1] 100%
+#[0,0,0,1] 100%
 
 #TREINANDO O MODELO DE ML
 model = LinearSVC()
